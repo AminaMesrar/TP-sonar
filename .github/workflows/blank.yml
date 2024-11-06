@@ -40,7 +40,7 @@ jobs:
       - name: Set up SonarQube Scanner
         uses: sonarsource/sonarcloud-github-action@v2  # الإجراء الذي يعد أداة SonarQube
         with:
-          sonar-token: ${{ secrets.SONAR_TOKEN }}  # التوكن الذي قمت بإضافته في GitHub Secrets
+          sonar-token: ${{ Analyze "TP-sonar" 2 }}  # التوكن الذي قمت بإضافته في GitHub Secrets
 
       # Run SonarQube analysis
       - name: Run SonarQube analysis
