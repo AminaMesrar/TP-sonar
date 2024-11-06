@@ -34,3 +34,15 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          - uses: actions/checkout@v4  # هذه الخطوة تقوم بتنزيل الكود من المستودع لكي يتمكن GitHub Actions من الوصول إلى الملفات
+
+      # Set up SonarQube Scanner
+      - name: Set up SonarQube Scanner
+        uses: sonarsource/sonarcloud-github-action@v2  # الإجراء الذي يعد أداة SonarQube
+        with:
+          sonar-token: ${{ secrets.SONAR_TOKEN }}  # التوكن الذي قمت بإضافته في GitHub Secrets
+
+      # Run SonarQube analysis
+      - name: Run SonarQube analysis
+        run: sonar-scanner  # هذه الخطوة تشغل تحليل SonarQube على الكود
+          
