@@ -1,48 +1,28 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checkout the repository
       - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          - uses: actions/checkout@v4  # هذه الخطوة تقوم بتنزيل الكود من المستودع لكي يتمكن GitHub Actions من الوصول إلى الملفات
 
       # Set up SonarQube Scanner
       - name: Set up SonarQube Scanner
-        uses: sonarsource/sonarcloud-github-action@v2  # الإجراء الذي يعد أداة SonarQube
+        uses: sonarsource/sonarcloud-github-action@v2
         with:
-          sonar-token: ${{ Analyze "TP-sonar" 2 }}  # التوكن الذي قمت بإضافته في GitHub Secrets
+          sonar-token: ${{ secrets.SONAR_TOKEN }}  # تأكد من إضافة SONAR_TOKEN في GitHub secrets
+          sonar-host-url: ${{ secrets.SONAR_HOST_URL }}  # تأكد من إضافة SONAR_HOST_URL في GitHub secrets
 
       # Run SonarQube analysis
       - name: Run SonarQube analysis
-        run: sonar-scanner  # هذه الخطوة تشغل تحليل SonarQube على الكود
-          
+        run: sonar-scanner
+
