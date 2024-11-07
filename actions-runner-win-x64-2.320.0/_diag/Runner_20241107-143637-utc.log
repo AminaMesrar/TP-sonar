@@ -1,0 +1,149 @@
+[2024-11-07 14:36:37Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'Runner': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.runner'
+[2024-11-07 14:36:37Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-11-07 14:36:37Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22000.
+[2024-11-07 14:36:37Z INFO Listener] Version: 2.320.0
+[2024-11-07 14:36:37Z INFO Listener] Commit: 78f21670b4a58aff19b5189207f54eb2bee324d1
+[2024-11-07 14:36:37Z INFO Listener] Culture: ar-MA
+[2024-11-07 14:36:37Z INFO Listener] UI Culture: fr-FR
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO Listener] Validating directory permissions for: 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO CommandLineParser] Parse
+[2024-11-07 14:36:37Z INFO CommandLineParser] Parsing 5 args
+[2024-11-07 14:36:37Z INFO CommandLineParser] parsing argument
+[2024-11-07 14:36:37Z INFO CommandLineParser] HasArgs: False
+[2024-11-07 14:36:37Z INFO CommandLineParser] Adding Command: configure
+[2024-11-07 14:36:37Z INFO CommandLineParser] parsing argument
+[2024-11-07 14:36:37Z INFO CommandLineParser] HasArgs: True
+[2024-11-07 14:36:37Z INFO CommandLineParser] arg: url
+[2024-11-07 14:36:37Z INFO CommandLineParser] parsing argument
+[2024-11-07 14:36:37Z INFO CommandLineParser] HasArgs: True
+[2024-11-07 14:36:37Z INFO CommandLineParser] Adding option 'url': 'https://github.com/AminaMesrar/TP-sonar'
+[2024-11-07 14:36:37Z INFO CommandLineParser] parsing argument
+[2024-11-07 14:36:37Z INFO CommandLineParser] HasArgs: True
+[2024-11-07 14:36:37Z INFO CommandLineParser] arg: token
+[2024-11-07 14:36:37Z INFO CommandLineParser] parsing argument
+[2024-11-07 14:36:37Z INFO CommandLineParser] HasArgs: True
+[2024-11-07 14:36:37Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-11-07 14:36:37Z INFO Listener] Arguments parsed
+[2024-11-07 14:36:37Z INFO Runner] ExecuteCommand
+[2024-11-07 14:36:37Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin\Runner.Listener.dll
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] binPath: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] RootFolder: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'Runner': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.runner'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] ConfigFilePath: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.runner
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] CredFilePath: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials_migrated'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials_migrated
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:37Z INFO HostContext] Well known config file 'Service': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.service'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.service
+[2024-11-07 14:36:37Z INFO CommandSettings] Flag 'help': 'False'
+[2024-11-07 14:36:37Z INFO CommandSettings] Flag 'version': 'False'
+[2024-11-07 14:36:37Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-11-07 14:36:37Z INFO CommandSettings] Flag 'check': 'False'
+[2024-11-07 14:36:37Z INFO CommandSettings] Command 'configure': 'True'
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: 
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE: |                       
+[2024-11-07 14:36:37Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE:                         |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-11-07 14:36:37Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-11-07 14:36:37Z INFO ConfigurationManager] ConfigureAsync
+[2024-11-07 14:36:37Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-11-07 14:36:37Z INFO ConfigurationStore] IsConfigured()
+[2024-11-07 14:36:37Z INFO ConfigurationStore] IsConfigured: False
+[2024-11-07 14:36:37Z INFO ConfigurationManager] Is configured: False
+[2024-11-07 14:36:37Z INFO CommandSettings] Arg 'url': 'https://github.com/AminaMesrar/TP-sonar'
+[2024-11-07 14:36:37Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-11-07 14:36:37Z INFO CommandSettings] Arg 'token': '***'
+[2024-11-07 14:36:37Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-11-07 14:36:39Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (266A:2D9AB7:949E1F:9614BB:672CD078)
+[2024-11-07 14:36:39Z INFO ConfigurationManager] Using V2 flow: False
+[2024-11-07 14:36:39Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-11-07 14:36:39Z INFO RunnerServer] EstablishVssConnection
+[2024-11-07 14:36:39Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-11-07 14:36:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-11-07 14:36:39Z INFO RunnerServer] EstablishVssConnection
+[2024-11-07 14:36:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-11-07 14:36:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-11-07 14:36:39Z INFO RunnerServer] EstablishVssConnection
+[2024-11-07 14:36:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-11-07 14:36:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-11-07 14:36:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-11-07 14:36:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-11-07 14:36:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-11-07 14:36:45Z INFO Terminal] WRITE LINE: 
+[2024-11-07 14:36:45Z INFO ConfigurationManager] Test Connection complete.
+[2024-11-07 14:36:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\bin'
+[2024-11-07 14:36:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0'
+[2024-11-07 14:36:45Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials_rsaparams'
+[2024-11-07 14:36:45Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-11-07 14:36:45Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\AdMin\Desktop\TP-sonar\actions-runner-win-x64-2.320.0\.credentials_rsaparams
+[2024-11-07 14:36:46Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-11-07 14:36:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-07 14:36:46Z INFO PromptManager] ReadValue
+[2024-11-07 14:36:46Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-11-07 14:36:46Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-11-07 14:36:46Z INFO Terminal] READ LINE
+[2024-11-07 14:37:10Z INFO Terminal] Read value: ''
+[2024-11-07 14:37:10Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-11-07 14:37:10Z INFO Terminal] WRITE LINE: 
+[2024-11-07 14:37:10Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-11-07 14:37:10Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-11-07 14:37:10Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-11-07 14:37:10Z INFO CommandSettings] Arg 'name': ''
+[2024-11-07 14:37:10Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-07 14:37:10Z INFO PromptManager] ReadValue
+[2024-11-07 14:37:10Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-11-07 14:37:10Z INFO Terminal] WRITE: [press Enter for DESKTOP-R54TNBM] 
+[2024-11-07 14:37:10Z INFO Terminal] READ LINE
+[2024-11-07 14:40:32Z INFO Terminal] Read value: './run.cmd'
+[2024-11-07 14:40:32Z INFO Terminal] WRITE LINE: 
+[2024-11-07 14:40:32Z INFO CommandSettings] Arg 'labels': ''
+[2024-11-07 14:40:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-07 14:40:32Z INFO PromptManager] ReadValue
+[2024-11-07 14:40:32Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-11-07 14:40:32Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-11-07 14:40:32Z INFO Terminal] READ LINE
+[2024-11-07 14:41:23Z INFO Terminal] Read value: ''
+[2024-11-07 14:41:23Z INFO Terminal] WRITE LINE: 
+[2024-11-07 14:41:23Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/wU1EL5gCyOwM3dHQfeRdcyMs6psp3rx4WgcPA2oxIgnfbvSgVD/_apis/distributedtask/pools/0/agents?agentName=.%2Frun.cmd&includeCapabilities=False failed. HTTP Status: BadRequest
+[2024-11-07 14:41:24Z ERR  Runner] GitHub.Services.WebApi.VssServiceResponseException: The runner name './run.cmd' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+ ---> System.ArgumentException: The runner name './run.cmd' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2024-11-07 14:41:24Z ERR  Runner] #####################################################
+[2024-11-07 14:41:24Z ERR  Runner] System.ArgumentException: The runner name './run.cmd' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+[2024-11-07 14:41:24Z ERR  Terminal] WRITE ERROR: The runner name './run.cmd' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+[2024-11-07 14:41:24Z INFO Listener] Runner execution has finished with return code 1
